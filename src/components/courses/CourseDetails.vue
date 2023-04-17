@@ -33,7 +33,7 @@
                     <div class="mt-4">
                         <h3 class="text-gray-500">Skills:</h3>
                         <ul class="list-disc pl-5 space-y-2">
-                            <li v-for="skill in courseStore.course.meta.skills" :key="skill" id="skill" class="text-base text-gray-500">{{ skill }}</li>
+                            <li v-for="skill in courseStore.course.meta.skills" :key="skill" class="text-base text-gray-500">{{ skill }}</li>
                             <li v-if="courseStore.course.meta.skills?.length === 0" class="text-base text-gray-500">No additional skills</li>
                         </ul>
                     </div>

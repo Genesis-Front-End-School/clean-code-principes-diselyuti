@@ -31,7 +31,7 @@ import {
 import CoursePreview from "@/components/courses/CoursePreview.vue";
 import { useCoursesStore } from "@/stores";
 import PaginationComponent from "@/components/common/PaginationComponent.vue";
-import CoursePreviewSekeleton from "@/components/courses/CoursePreviewSekeleton.vue";
+import CoursePreviewSekeleton from "@/components/courses/CoursePreviewSkeleton.vue";
 
 const coursesStore = useCoursesStore();
 

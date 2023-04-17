@@ -4,20 +4,20 @@
             <!-- Product details -->
             <div class="lg:max-w-lg lg:self-end">
                 <div class="mt-4">
-                    <h1 class="h-8 bg-gray-200 w-full rounded-md text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl"></h1>
+                    <div class="h-8 bg-gray-200 w-full rounded-md text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl"></div>
                 </div>
 
                 <section aria-labelledby="information-heading" class="mt-4">
                     <div class="flex items-center">
-                        <p class="h-5 bg-gray-200 w-11/12 rounded-md text-lg text-gray-900 sm:text-xl"></p>
+                        <div class="h-5 bg-gray-200 w-11/12 rounded-md text-lg text-gray-900 sm:text-xl"></div>
                     </div>
 
                     <div class="mt-4 space-y-6">
-                        <p class="h-5 bg-gray-200 w-5/12 rounded-md text-base text-gray-500"></p>
+                        <div class="h-5 bg-gray-200 w-5/12 rounded-md text-base text-gray-500"></div>
                     </div>
 
                     <div class="mt-12">
-                        <h3 class="h-6 bg-gray-200 w-3/12 rounded-md text-gray-500"></h3>
+                        <div class="h-6 bg-gray-200 w-3/12 rounded-md text-gray-500"></div>
                         <ul class="list-disc pl-5 space-y-2 mt-4">
                             <li class="h-5 bg-gray-200 w-9/12 rounded-md text-base text-gray-500"></li>
                             <li class="h-5 bg-gray-200 w-5/12 rounded-md text-base text-gray-500"></li>

@@ -42,17 +42,15 @@ export const useCoursesStore = defineStore('courses', {
 			this.courseLoading = true;
 			let course = this.findCourseBySlug(slug);
 			if (!course) {
-				// check if course is not in the store
 				await this.getCourses();
 				course = this.findCourseBySlug(slug);
 			}
-			// if course is still not found, return null
+
 			if (!course) {
 				this.courseLoading = false;
 				return null;
 			}
 
-			// if course is found, fetch it
 			await this.getCourse(course.id);
 			this.courseLoading = false;
 		},
@@ -76,7 +74,6 @@ export const useCoursesStore = defineStore('courses', {
 	},
 	getters: {
 		paginatedCourses(): Course[] {
-			// return courses from the current page
 			return this.courses.slice((this.pageNumber - 1) * 10, this.pageNumber * 10)
 		},
 		orderedLessons(): Lesson[] {

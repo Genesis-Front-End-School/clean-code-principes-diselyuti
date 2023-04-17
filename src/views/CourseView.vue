@@ -20,7 +20,7 @@ import {useCoursesStore} from "@/stores";
 import LessonsList from "@/components/lessons/LessonsList.vue";
 import CourseDetails from "@/components/courses/CourseDetails.vue";
 import CourseDetailsSkeleton from "@/components/courses/CourseDetailsSkeleton.vue";
-import LessonsListSekeleton from "@/components/lessons/LessonsListSekeleton.vue";
+import LessonsListSekeleton from "@/components/lessons/LessonsListSkeleton.vue";
 
 const route = useRoute();
 const coursesStore = useCoursesStore();
